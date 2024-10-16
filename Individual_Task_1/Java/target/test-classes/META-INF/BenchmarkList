@@ -1,0 +1,1 @@
+JMH S 24 org.example.Benchmarking S 61 org.example.jmh_generated.Benchmarking_multiplication_jmhTest S 14 multiplication S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
