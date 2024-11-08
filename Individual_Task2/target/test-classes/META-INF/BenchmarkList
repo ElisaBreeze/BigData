@@ -1,0 +1,7 @@
+JMH S 21 org.example.Benchmark S 73 org.example.jmh_generated.Benchmark_SparseMatrixCSRMultiplication_jmhTest S 29 SparseMatrixCSRMultiplication S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 org.example.Benchmark S 68 org.example.jmh_generated.Benchmark_benchmarkAccessOptimized_jmhTest S 24 benchmarkAccessOptimized S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 org.example.Benchmark S 78 org.example.jmh_generated.Benchmark_benchmarkBasicMatrixMultiplication_jmhTest S 34 benchmarkBasicMatrixMultiplication S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 org.example.Benchmark S 61 org.example.jmh_generated.Benchmark_benchmarkBlocking_jmhTest S 17 benchmarkBlocking S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 org.example.Benchmark S 76 org.example.jmh_generated.Benchmark_benchmarkCSCSparseMultiplication_jmhTest S 32 benchmarkCSCSparseMultiplication S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 org.example.Benchmark S 66 org.example.jmh_generated.Benchmark_benchmarkLoopUnrolling_jmhTest S 22 benchmarkLoopUnrolling S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 org.example.Benchmark S 61 org.example.jmh_generated.Benchmark_benchmarkStrassen_jmhTest S 17 benchmarkStrassen S 11 AverageTime E A 1 1 1 E E E E E E E I 1 1 E E E E E E U 12 MILLISECONDS E E 

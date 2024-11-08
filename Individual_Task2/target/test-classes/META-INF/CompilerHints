@@ -1,0 +1,14 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/example/Benchmark$Operands.setup
+inline,org/example/Benchmark.SparseMatrixCSRMultiplication
+inline,org/example/Benchmark.benchmarkAccessOptimized
+inline,org/example/Benchmark.benchmarkBasicMatrixMultiplication
+inline,org/example/Benchmark.benchmarkBlocking
+inline,org/example/Benchmark.benchmarkCSCSparseMultiplication
+inline,org/example/Benchmark.benchmarkLoopUnrolling
+inline,org/example/Benchmark.benchmarkStrassen
+inline,org/example/Benchmark.tearDown
