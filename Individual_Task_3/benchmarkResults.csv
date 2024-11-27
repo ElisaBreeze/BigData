@@ -1,0 +1,21 @@
+Matrix Size,Method,Execution Time (ms),Memory Usage (MB)
+16x16,Basic,0.004,9.54E-11
+128x128,Basic,2.23,9.44E-5
+1024x1024,Basic,2453.59,0.103
+2048x2048,Basic,68869.03,0.435
+16x16,Parallel (2 Threads),0.178,0.004
+16x16,Parallel (4 Threads),0.372,0.005
+16x16,Parallel (8 Threads),0.814,0.008
+128x128,Parallel (2 Threads),1.28,0.016
+128x128,Parallel (4 Threads),1.02,0.018
+128x128,Parallel (8 Threads),1.16,0.021
+1024x1024,Parallel (2 Threads),1155.66,0.112
+1024x1024,Parallel (4 Threads),769.00,0.113
+1024x1024,Parallel (8 Threads),776.66,0.116
+2048x2048,Parallel (2 Threads),26579.14,0.221
+2048x2048,Parallel (4 Threads),16769.12,0.222
+2048x2048,Parallel (8 Threads),14527.59,0.230
+16x16,Vectorized,0.006,0.0069
+128x128,Vectorized,1.41,0.375
+1024x1024,Vectorized,660.12,24.04
+2048x2048,Vectorized,5134.44,96.1
