@@ -1,0 +1,11 @@
+# Java base image
+FROM openjdk:17-jdk-slim
+
+# Work Directory inside the container
+WORKDIR /app
+
+# Copies the generated JAR into the container
+COPY target/MatrixMulti-1.0-SNAPSHOT.jar app.jar
+
+# Command to execute the application
+CMD ["java", "-jar", "app.jar"]

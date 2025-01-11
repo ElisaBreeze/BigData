@@ -1,0 +1,27 @@
+services:
+  hazelcast-node-1:
+    build:
+      context: .
+    container_name: hazelcast-node-1
+    image: multiplication:latest
+    depends_on:
+      - hazelcast-node-2
+      - hazelcast-node-3
+    networks:
+      - hazelcast-cluster
+
+  hazelcast-node-2:
+    image: multiplication:latest
+    container_name: hazelcast-node-2
+    networks:
+      - hazelcast-cluster
+
+  hazelcast-node-3:
+    image: multiplication:latest
+    container_name: hazelcast-node-3
+    networks:
+      - hazelcast-cluster
+
+networks:
+  hazelcast-cluster:
+    driver: bridge
